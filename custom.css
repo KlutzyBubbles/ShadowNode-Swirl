@@ -1,0 +1,13 @@
+.img-pad {
+	margin: 20px;
+}
+#navbar-toggle-cbox {
+  display:none
+}
+#navbar-toggle-cbox:checked ~ .collapse {
+    display: block;
+}
+.input-group-btn button {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
