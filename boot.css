@@ -178,6 +178,7 @@
 }
 .pg-bs img {
   vertical-align: middle;
+  max-width: 100%;
   border-style: none;
 }
 .pg-bs svg {
@@ -186,6 +187,7 @@
 }
 .pg-bs table {
   border-collapse: collapse;
+  max-width: 100%;
 }
 .pg-bs caption {
   padding-top: 0.75rem;
@@ -305,6 +307,8 @@
 }
 .pg-bs .img-pad {
   margin: 20px;
+  margin-bottom: 0;
+  max-width: 100%;
 }
 .pg-bs #navbar-toggle-cbox {
   display: none;
