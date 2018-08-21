@@ -303,6 +303,19 @@
 .pg-bs [hidden] {
   display: none !important;
 }
+.pg-bs .img-pad {
+  margin: 20px;
+}
+.pg-bs #navbar-toggle-cbox {
+  display: none;
+}
+.pg-bs #navbar-toggle-cbox:checked ~ .collapse {
+  display: block;
+}
+.pg-bs .input-group-btn button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 .pg-bs h1, .pg-bs h2, .pg-bs h3, .pg-bs h4, .pg-bs h5, .pg-bs h6,
 .pg-bs .h1, .pg-bs .h2, .pg-bs .h3, .pg-bs .h4, .pg-bs .h5, .pg-bs .h6 {
   margin-bottom: 0.5rem;
